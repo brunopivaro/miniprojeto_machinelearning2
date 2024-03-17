@@ -131,4 +131,5 @@ print(explained_variance_score(y_teste, pred_v3))
 df_coef = pd.DataFrame(modelo_v1.coef_, X.columns, columns = ['Coeficiente'])
 print(df_coef.head(10))
 
-#
+#Analisando os coeficientes do modelo, percebemos que se mantermos o cliente no site, teremos a tendência de aumentar em 63,7 o valor gasto
+#por cliente no final do mês. Também podemos perceber que teremos um retorno maior pelo app ao invés do website.
